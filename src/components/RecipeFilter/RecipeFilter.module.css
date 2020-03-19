@@ -1,0 +1,28 @@
+.recipes__input {
+  padding: 0 10px;
+  display: block;
+  width: 620px;
+  height: 44px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #c9a131;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+.recipes__input:hover,
+.recipes__input:focus {
+  border-color: #c9a131;
+  transition: 0.3s ease-in-out;
+}
+
+.recipes__input::placeholder {
+  color: #171718;
+}
+
+@media (max-width: 980px) {
+  .recipes__input {
+    width: 300px;
+  }
+}

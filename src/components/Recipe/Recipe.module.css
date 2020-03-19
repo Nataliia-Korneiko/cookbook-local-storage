@@ -1,0 +1,100 @@
+.recipe {
+  padding: 10px 15px 15px;
+  border-top: 5px solid transparent;
+  border-radius: 5px;
+  width: 300px;
+  background-color: #ffffff;
+  background-image: url(../../assets/img/backdrop-03.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.low__level {
+  border-color: #4caf50;
+}
+
+.normal__level {
+  border-color: #2196f3;
+}
+
+.high__level {
+  border-color: #f44336;
+}
+
+.recipe__spans {
+  min-height: 38px;
+  font-size: 14px;
+}
+
+.recipe__span {
+  display: block;
+}
+
+.recipe__createDate {
+  color: green;
+}
+
+.recipe__editDate {
+  color: red;
+}
+
+.recipe__wrapper {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  background-color: #ffffff;
+}
+
+.recipe__title {
+  padding: 10px 0;
+  font-family: 'Marck Script', cursive;
+  font-size: 22px;
+  font-weight: 800;
+  color: #c9a131;
+  text-align: center;
+}
+
+.recipe__title::after {
+  margin: 0 auto;
+  display: block;
+  content: '';
+  width: 247px;
+  height: 24px;
+  background-image: url(../../assets/icon/decoration-01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.recipe__description {
+  text-align: justify;
+  overflow-y: scroll;
+}
+
+.recipe__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe__button {
+  width: 120px;
+  height: 44px;
+  border: 2px solid #c9a131;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #171718;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+
+.recipe__button:hover,
+.recipe__button:focus {
+  background-color: #c9a131;
+  transition: 0.8s ease-in-out;
+}

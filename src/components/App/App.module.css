@@ -1,0 +1,141 @@
+.container {
+  margin: 0 auto;
+  width: 1260px;
+}
+
+.recipes__header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 100vh;
+  background-image: url(../../assets/img/backdrop-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.recipes__button {
+  margin-bottom: 50px;
+  display: block;
+  width: 200px;
+  height: 44px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.25);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+
+.recipes__button:hover,
+.recipes__button:focus {
+  background-color: #c9a131;
+  transition: 0.8s ease-in-out;
+}
+
+.recipes__quote {
+  margin: 0 auto;
+  padding: 15px;
+  width: 620px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(0, 0, 0, 0.65);
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+  font-weight: 600;
+  animation: recipes__quote 3s forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+@keyframes recipes__quote {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.recipes__description {
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.recipes__author {
+  color: #c9a131;
+  text-align: end;
+}
+
+.recipes__author::after {
+  margin-right: 16px;
+  margin-left: auto;
+  display: block;
+  content: '';
+  width: 247px;
+  height: 24px;
+  background-image: url(../../assets/icon/decoration-01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.recipes__main {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: 100vh;
+  background-image: url(../../assets/img/backdrop-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.recipes__wrapper {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    width: 940px;
+  }
+}
+
+@media (max-width: 980px) {
+  .container {
+    width: 620px;
+  }
+}
+
+@media (max-width: 660px) {
+  .container {
+    width: 300px;
+  }
+
+  .recipes__button {
+    margin-bottom: 100px;
+  }
+
+  .recipes__quote {
+    width: 300px;
+    font-size: 28px;
+  }
+
+  .recipes__author {
+    text-align: center;
+  }
+
+  .recipes__author::after {
+    margin: 0;
+  }
+
+  .recipes__wrapper {
+    flex-direction: column-reverse;
+  }
+}

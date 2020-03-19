@@ -1,0 +1,142 @@
+.recipes__form {
+  padding: 30px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 620px;
+}
+
+.recipes__form::after {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+  border-radius: 16px;
+  content: '';
+  width: 161.1px;
+  height: 216px;
+  background-image: url(../../assets/icon/chef-01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.recipes__label {
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.recipes__input {
+  padding: 0 10px;
+  display: block;
+  width: 100%;
+  height: 44px;
+  border: 2px solid #c9a131;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #171718;
+  outline: none;
+}
+
+.recipes__textarea {
+  padding: 0 10px;
+  display: block;
+  width: 100%;
+  height: 200px;
+  border: 2px solid #c9a131;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #171718;
+  outline: none;
+  resize: none;
+}
+
+.recipes__labelLevel {
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+  font-weight: 700;
+  color: #c9a131;
+  align-items: center;
+}
+
+.recipes__labelLevel select {
+  margin-left: 20px;
+  height: 34px;
+  width: 106px;
+  border: transparent;
+  font-size: 18px;
+  background-color: #c9a131;
+  outline: none;
+}
+
+.recipes__buttons {
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+  align-self: baseline;
+}
+
+.recipes__button {
+  width: 180px;
+  height: 44px;
+  border: 2px solid #c9a131;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #171718;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+
+.recipes__button:hover,
+.recipes__button:focus {
+  background-color: #c9a131;
+  transition: 0.8s ease-in-out;
+}
+
+@media (max-width: 660px) {
+  .recipes__form {
+    width: 300px;
+  }
+
+  .recipes__form::after {
+    bottom: 94px;
+  }
+
+  .recipes__label {
+    width: 270px;
+  }
+
+  .recipes__labelDescription {
+    margin-bottom: 30px;
+  }
+
+  .recipes__labelLevel {
+    padding-right: 12px;
+    font-size: 28px;
+  }
+
+  .recipes__labelLevel select {
+    margin-top: 40px;
+    margin-left: 0;
+    width: 120px;
+    height: 44px;
+  }
+
+  .recipes__buttons {
+    padding-left: 0;
+    width: 270px;
+    align-self: center;
+  }
+
+  .recipes__button {
+    width: 120px;
+  }
+}

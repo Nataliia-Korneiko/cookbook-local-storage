@@ -1,0 +1,21 @@
+.backdrop {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  z-index: 10;
+}
+
+.modal {
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  background-image: url(../../assets/img/backdrop-03.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
