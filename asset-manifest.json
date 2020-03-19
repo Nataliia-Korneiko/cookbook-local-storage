@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cookbook-local-storage/static/css/main.cdd7cb68.chunk.css",
+    "main.js": "/cookbook-local-storage/static/js/main.33224348.chunk.js",
+    "main.js.map": "/cookbook-local-storage/static/js/main.33224348.chunk.js.map",
+    "runtime-main.js": "/cookbook-local-storage/static/js/runtime-main.f19c0a9b.js",
+    "runtime-main.js.map": "/cookbook-local-storage/static/js/runtime-main.f19c0a9b.js.map",
+    "static/js/2.ace6c175.chunk.js": "/cookbook-local-storage/static/js/2.ace6c175.chunk.js",
+    "static/js/2.ace6c175.chunk.js.map": "/cookbook-local-storage/static/js/2.ace6c175.chunk.js.map",
+    "index.html": "/cookbook-local-storage/index.html",
+    "precache-manifest.395d0d08ab3cce413f967dc942f0c618.js": "/cookbook-local-storage/precache-manifest.395d0d08ab3cce413f967dc942f0c618.js",
+    "service-worker.js": "/cookbook-local-storage/service-worker.js",
+    "static/css/main.cdd7cb68.chunk.css.map": "/cookbook-local-storage/static/css/main.cdd7cb68.chunk.css.map",
+    "static/js/2.ace6c175.chunk.js.LICENSE.txt": "/cookbook-local-storage/static/js/2.ace6c175.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/cookbook-local-storage/static/media/backdrop-02.bd78375e.jpg",
+    "static/media/Modal.module.css": "/cookbook-local-storage/static/media/backdrop-03.8481dad2.png",
+    "static/media/RecipeEditor.module.css": "/cookbook-local-storage/static/media/chef-01.d543f4ce.png",
+    "static/media/index.css": "/cookbook-local-storage/static/media/montserrat-v14-latin-regular.bc3aa95d.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f19c0a9b.js",
+    "static/js/2.ace6c175.chunk.js",
+    "static/css/main.cdd7cb68.chunk.css",
+    "static/js/main.33224348.chunk.js"
+  ]
+}
