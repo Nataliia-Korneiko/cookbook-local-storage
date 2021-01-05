@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://Nataliia-Korneiko.github.io/cookbook-local-storage",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "gh-pages": "^2.2.0",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
